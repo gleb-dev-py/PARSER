@@ -1,16 +1,9 @@
-NBRB Currency Parser
+Парсер курсов валют НБРБ
 
-What it does:
-Fetches daily and monthly currency exchange rates from the National Bank of the Republic of Belarus API and saves them to a CSV file.
+Что делает: получает ежедневные и ежемесячные официальные курсы валют из API Национального банка Республики Беларусь и сохраняет их в файл CSV.
 
-Requirements:
+Требования: Библиотека requests
 
-requests library
+Использование: Создается файл cur_today.csv, содержащий строки следующего формата:Cur_Abbreviation Cur_Name Cur_OfficialRate (Буквенный код, Название валюты, Официальный курс)
 
-Usage:
-
-cur_today.csv is created, containing rows of:
-
-Cur_Abbreviation Cur_Name Cur_OfficialRate
-
-Data source: api.nbrb.by
+Источник данных: api.nbrb.by
